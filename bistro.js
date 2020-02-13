@@ -29,7 +29,7 @@
                     let klon = template.cloneNode(true).content;
 
                     klon.querySelector("h2").textContent = person.gsx$navn.$t;
-                    klon.querySelector("h3").textContent = person.gsx$pris.$t;
+                    klon.querySelector("h3").textContent += person.gsx$pris.$t;
                     klon.querySelector("p").textContent = "Oprindelse: " + person.gsx$oprindelse.$t;
                     klon.querySelector("h4").textContent += person.gsx$lang.$t;
                     klon.querySelector(".pic").src = "imgs/small/" + person.gsx$billede.$t + "-sm.jpg";
@@ -81,7 +81,8 @@
             detalje.classList.remove("skjul")
             detalje.querySelector("#xbutton").addEventListener("click", () => detalje.classList.add("skjul"))
             document.querySelector("h1").textContent = person.gsx$navn.$t;
-            document.querySelector("h2").textContent = person.gsx$pris.$t;
+            document.querySelector("h2").textContent += person.gsx$pris.$t;
+            document.querySelector("p").textContent = person.gsx$oprindelse.$t;
             document.querySelector(".picup").src = "imgs/small/" + person.gsx$billede.$t + "-sm.jpg";
 
             console.log(person.gsx$navn.$t)

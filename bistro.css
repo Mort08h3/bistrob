@@ -12,7 +12,7 @@
             padding: 10px;
             background: #ececec;
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         }
 
         #undervisere {
@@ -26,13 +26,14 @@
             position: fixed;
             width: 50vw;
             height: 100vh;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: whitesmoke;
             z-index: 3;
         }
 
         #popperson {
             width: 50vw;
             height: 100vh;
+            text-align: center;
 
         }
 
@@ -73,7 +74,7 @@
                 padding: 10px;
                 background: #ececec;
                 display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             }
 
             #undervisere {
