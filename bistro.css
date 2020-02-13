@@ -6,6 +6,17 @@
             max-width: 100%;
         }
 
+        @font-face {
+            font-family: 'kremlinregular';
+            src: url('kremlin-webfont.woff2') format('woff2'),
+                url('kremlin-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+
+        }
+
+
+
         .data-container {
             max-width: 300px;
             margin: 0 auto;
@@ -22,22 +33,38 @@
 
         #popup {
             top: 0vw;
-            left: 25vw;
+            left: 8.5vw;
             position: fixed;
-            width: 50vw;
+            width: 82vw;
             height: 100vh;
             background-color: whitesmoke;
             z-index: 3;
+            border: 0.5vw solid red;
+            border-radius: 10vw, 0vw, 0vw, 0vw;
         }
 
         #popperson {
-            width: 50vw;
+            width: 81vw;
             height: 100vh;
             text-align: center;
+            z-index: 4;
 
         }
 
-        h1,
+        .picup {
+            width: 50%;
+            height: 50%;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-family: 'kremlinregular';
+        }
+
+        body {
+            font-family: 'Russo One', sans-serif;
+        }
+
         nav {
             width: 100%;
             text-align: center;
