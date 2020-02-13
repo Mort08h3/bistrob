@@ -15,19 +15,24 @@
 
         }
 
-
+        body {
+            background-color: brown;
+        }
 
         .data-container {
             max-width: 300px;
             margin: 0 auto;
             padding: 10px;
-            background: #ececec;
+            background-color: brown;
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
         }
 
         #undervisere {
+            background-color: antiquewhite;
             border: 1px solid #000;
+            border-radius: 0.5vw;
             padding: 10px;
         }
 
@@ -37,10 +42,10 @@
             position: fixed;
             width: 82vw;
             height: 100vh;
-            background-color: whitesmoke;
+            background-color: antiquewhite;
             z-index: 3;
             border: 0.5vw solid red;
-            border-radius: 10vw, 0vw, 0vw, 0vw;
+            border-radius: 10vw;
         }
 
         #popperson {
@@ -56,10 +61,37 @@
             height: 50%;
         }
 
+        .reth1 {
+
+
+            text-align: center;
+        }
+
+        .head {
+            font-family: 'kremlinregular';
+            font-size: 4rem;
+            text-align: center;
+            background-color: antiquewhite;
+            border: 10px solid #000;
+            border-radius: 0.5vw;
+            padding: 50px;
+        }
+
         h1 {
-            font-size: 2rem;
+            font-size: 1.8rem;
             font-family: 'kremlinregular';
         }
+
+        h2 {
+            font-size: 2rem;
+            font-family: 'Russo One', sans-serif;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            font-family: 'Russo One', sans-serif;
+        }
+
 
         body {
             font-family: 'Russo One', sans-serif;
@@ -69,10 +101,24 @@
             width: 100%;
             text-align: center;
             padding: 1vw;
+            background-color: brown;
+        }
+
+        button {
+            font-family: 'Russo One', sans-serif;
+            font-size: 2rem;
+            background-color: antiquewhite;
+            padding: 0.25vw;
+            border: 10px solid red;
+            border-radius: 1vw;
         }
 
         .valgt {
             background-color: red;
+        }
+
+        .valgt2 {
+            background-color: lawngreen;
         }
 
 
@@ -83,7 +129,7 @@
                 max-width: 1000px;
                 margin: 0 auto;
                 padding: 10px;
-                background: #ececec;
+
                 display: grid;
                 grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             }
@@ -95,11 +141,22 @@
         }
 
         @media screen and (min-width:1200px) {
+
+            .head {
+                font-family: 'kremlinregular';
+                font-size: 8rem;
+                text-align: center;
+                background-color: antiquewhite;
+                border: 10px solid #000;
+                border-radius: 0.5vw;
+                padding: 50px;
+            }
+
             .data-container {
                 max-width: 1200px;
                 margin: 0 auto;
                 padding: 10px;
-                background: #ececec;
+
                 display: grid;
                 grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             }

@@ -70,10 +70,10 @@
         function aldersFiltrering() {
             if (filterAlder == 0) {
                 filterAlder = this.dataset.pris_over;
-                this.classList.add("valgt")
+                this.classList.add("valgt2")
             } else {
                 filterAlder = 0;
-                this.classList.remove("valgt")
+                this.classList.remove("valgt2")
             }
 
         }
