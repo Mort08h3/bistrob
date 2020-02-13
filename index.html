@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="bistro.css">
+</head>
+
+<body>
+
+    <section id="popup" class="skjul">
+        <button id="xbutton">X</button>
+        <article id="popperson">
+            <h1>Navn: </h1>
+            <h2>Efternavn: </h2>
+            <img class="picup" src="">
+            <p>
+                Religion
+            </p>
+        </article>
+    </section>
+
+    <h1>Alle</h1>
+    <nav>
+        <button class="filter valgt" data-kategori="alle">Alle</button>
+        <button class="filter" data-kategori="forretter">Forretter</button>
+        <button class="filter" data-kategori="hovedretter">Hovedretter</button>
+        <button class="filter" data-kategori="desserter">Desserter</button>
+        <button class="filter" data-kategori="drikkevarer">Drikkevarer</button>
+        <button class="filter" data-kategori="sideorders">Sideorders</button>
+        <br>
+        <button class="aldersFilter" data-pris_over="50">Vis alle over 50 kr.</button>
+    </nav>
+
+
+    <section class="data-container"></section>
+
+
+
+    <template>
+        <article id="undervisere">
+            <h2>Navn: </h2>
+            <h3>Efternavn: </h3>
+            <h4>Alder: </h4>
+            <img class="pic" src="" alt="">
+            <p></p>
+        </article>
+    </template>
+
+
+    <script src="bistro.js"></script>
+</body></html>
